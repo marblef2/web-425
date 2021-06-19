@@ -1,7 +1,8 @@
 /**
  * Title: composer-list.component.ts
  * Author: Professor Krasso
- * Date: 21 April 2020
+ * Modified by: Fred Marble
+ * Date: 18 June 2021
  * Description: Composer list component; displays a list of composers
  */
 
