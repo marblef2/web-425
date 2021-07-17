@@ -14,7 +14,7 @@ export class BookListComponent implements OnInit {
 
 
   books: Array<IBook> = [];
-  book: IBook;
+  book!: IBook;
 
   constructor(private booksService: BooksService, private dialog: MatDialog) {
     this.booksService.getBooks().subscribe(res => {
